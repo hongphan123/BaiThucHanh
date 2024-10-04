@@ -14,8 +14,8 @@ function Helloo(){
             {/* Nút gọi hiAll */}
             <button onClick={hiAll}>Say Hi to Everyone</button>
             
-            {/* Nút gọi hiYou với giá trị name là "Nguyen Van A" */}
-            <button onClick={() => hiYou("Nguyen Hoang Tan")}>Say Hi to You</button>
+            {/* Nút gọi hiYou với giá trị name là "Huynh Thi Hong Phan" */}
+            <button onClick={() => hiYou("Huynh Thi Hong Phan")}>Say Hi to You</button>
         </div>
     );
 }
